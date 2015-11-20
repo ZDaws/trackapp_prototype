@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ABC61CF01BFE311E00D13E51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC61CEF1BFE311E00D13E51 /* AppDelegate.swift */; };
-		ABC61CF21BFE311E00D13E51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC61CF11BFE311E00D13E51 /* ViewController.swift */; };
+		ABC61CF21BFE311E00D13E51 /* SWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC61CF11BFE311E00D13E51 /* SWViewController.swift */; };
 		ABC61CF51BFE311E00D13E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC61CF31BFE311E00D13E51 /* Main.storyboard */; };
 		ABC61CF71BFE311E00D13E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC61CF61BFE311E00D13E51 /* Assets.xcassets */; };
 		ABC61CFA1BFE311E00D13E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC61CF81BFE311E00D13E51 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		ABC61CEC1BFE311E00D13E51 /* trackapp_prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trackapp_prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC61CEF1BFE311E00D13E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABC61CF11BFE311E00D13E51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABC61CF11BFE311E00D13E51 /* SWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWViewController.swift; sourceTree = "<group>"; };
 		ABC61CF41BFE311E00D13E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABC61CF61BFE311E00D13E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC61CF91BFE311E00D13E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				ABC61CEF1BFE311E00D13E51 /* AppDelegate.swift */,
-				ABC61CF11BFE311E00D13E51 /* ViewController.swift */,
+				ABC61CF11BFE311E00D13E51 /* SWViewController.swift */,
 				ABC61CF31BFE311E00D13E51 /* Main.storyboard */,
 				ABC61CF61BFE311E00D13E51 /* Assets.xcassets */,
 				ABC61CF81BFE311E00D13E51 /* LaunchScreen.storyboard */,
@@ -255,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC61CF21BFE311E00D13E51 /* ViewController.swift in Sources */,
+				ABC61CF21BFE311E00D13E51 /* SWViewController.swift in Sources */,
 				ABC61CF01BFE311E00D13E51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +483,7 @@
 				ABC61D161BFE311E00D13E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC61D171BFE311E00D13E51 /* Build configuration list for PBXNativeTarget "trackapp_prototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +492,7 @@
 				ABC61D191BFE311E00D13E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC61D1A1BFE311E00D13E51 /* Build configuration list for PBXNativeTarget "trackapp_prototypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +501,7 @@
 				ABC61D1C1BFE311E00D13E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
